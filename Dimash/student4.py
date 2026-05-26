@@ -225,8 +225,8 @@ sns.boxplot(
     data=df,
     x="Genre",
     y="success_per_user",
-    hue="Genre",          # Исправлено: добавили hue, чтобы убрать FutureWarning
-    legend=False,         # Исправлено: отключили дублирующуюся легенду
+    hue="Genre",          
+    legend=False,         
     palette="vlag"
 )
 plt.title("Распределение показателя 'success_per_user' по жанрам")
